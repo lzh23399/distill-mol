@@ -1,0 +1,15 @@
+torch==2.2.0
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+tqdm==4.67.1
+matplotlib==3.10.8
+transformers==4.36.2
+safetensors==0.7.0
+rdkit==2025.9.3
+--find-links https://data.pyg.org/whl/torch-2.2.0+cu121.html
+torch-geometric==2.7.0
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+einops==0.8.1
