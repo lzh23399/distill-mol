@@ -1,0 +1,18 @@
+python pretrain_egnn_zinc.py \
+    --train_both  \
+    --teacher_epochs 10     \
+    --student_epochs 15   \
+    --output_dim 256 \
+    --data_dir ../data/zinc15/output/test
+
+python pretrain_egnn_zinc.py \
+    --train_both  \
+    --teacher_epochs 7     \
+    --student_epochs 10   \
+    --output_dim 256 \
+    --data_dir ../data/zinc15/output
+
+python pretrain_2D.py \
+    --data_dir ../data/zinc15/all \
+    --checkpoint_dir check_all \
+    --epochs 30
